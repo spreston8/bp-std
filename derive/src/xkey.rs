@@ -1119,7 +1119,7 @@ mod test {
 
     #[test]
     fn xpriv_account_display_fromstr() {
-        use secp256k1::rand::{self, RngCore};
+        use rand::{self, RngCore};
 
         let mut seed = vec![0u8; 128];
         rand::thread_rng().fill_bytes(&mut seed);
@@ -1132,7 +1132,7 @@ mod test {
 
     #[test]
     fn xpriv_derivable() {
-        use secp256k1::rand::{self, RngCore};
+        use rand::{self, RngCore};
 
         let mut seed = vec![0u8; 128];
         rand::thread_rng().fill_bytes(&mut seed);

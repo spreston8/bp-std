@@ -214,6 +214,7 @@ dependencies = [
  "commit_verify",
  "hmac",
  "indexmap",
+ "rand 0.8.5",
  "serde",
  "sha2",
 ]
